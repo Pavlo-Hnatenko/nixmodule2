@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class DateFormatter {
 
-    public static List<String > formatDate(List<LocalDate> originDates) {
+    public static List<String> formatDate(List<LocalDate> originDates) {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd");
 

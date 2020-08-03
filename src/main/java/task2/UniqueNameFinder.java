@@ -8,7 +8,7 @@ public class UniqueNameFinder {
 
     protected static String findUniqueName(ArrayList<String> names) {
 
-        Integer countdown = 0; // to avoid repeated autoboxing below
+        Integer countdown = 0;
         final LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
 
         for (String s : names) {
@@ -23,6 +23,5 @@ public class UniqueNameFinder {
         }
 
         return "there aren't unique elements";
-
     }
 }
